@@ -9,16 +9,28 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bluetooth" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/googlemaps" />
+            <option value="$PROJECT_DIR$/locationservices" />
+            <option value="$PROJECT_DIR$/pushnotifications" />
             <option value="$PROJECT_DIR$/webservices" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bluetooth" />
+            <option value="$PROJECT_DIR$/fragments" />
+            <option value="$PROJECT_DIR$/googlemaps" />
+            <option value="$PROJECT_DIR$/locationservices" />
+            <option value="$PROJECT_DIR$/pushnotifications" />
             <option value="$PROJECT_DIR$/webservices" />
           </set>
         </option>

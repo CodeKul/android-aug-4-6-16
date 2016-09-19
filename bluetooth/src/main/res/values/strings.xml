@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="btnVisibility">Visibility</string>
+    <string name="btnDiscover">Discover</string>
+    <string name="btnServer">Server</string>
+    <string name="btnClilent">Client</string>
+</resources>
