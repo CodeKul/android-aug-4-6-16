@@ -4,6 +4,8 @@ package com.codekul.fragments;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 //import android.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,6 +36,13 @@ public class BlankFragment extends Fragment {
             }
         });
 
+        rootView.findViewById(R.id.btnRegister).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loadRegistrationFragment();
+            }
+        });
+
         return rootView;
     }
 
@@ -49,4 +58,11 @@ public class BlankFragment extends Fragment {
         ((TextView)rootView.findViewById(R.id.textView)).setText(msg);
     }
 
+    private void loadRegistrationFragment(){
+
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        FragmentTransaction txn = manager.beginTransaction();
+        txn.replace(R.id.frameFragment,new RegistrationFragment());
+        txn.commit();
+    }
 }
