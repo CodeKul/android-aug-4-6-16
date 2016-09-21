@@ -24,60 +24,56 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
-        findViewById(R.id.btnOkay).setOnClickListener(new View.OnClickListener() {
+    private void registerNewAccount(){
+        final String userName = ((EditText)findViewById(R.id.edtUserName)).getText().toString();
+        final String password = ((EditText)findViewById(R.id.edtUserPassword)).getText().toString();
+
+        new Thread(new Runnable() {
             @Override
-            public void onClick(View v) {
+            public void run() {
 
-                final String userName = ((EditText)findViewById(R.id.edtUserName)).getText().toString();
-                final String password = ((EditText)findViewById(R.id.edtUserPassword)).getText().toString();
+                XMPPTCPConnectionConfiguration connConfig =
+                        XMPPTCPConnectionConfiguration.builder()
+                                .setHost("tigase.im")  // Name of your Host
+                                .setSecurityMode(ConnectionConfiguration.SecurityMode.ifpossible)
+                                .setPort(5222)          // Your Port for accepting c2s connection
+                                .setDebuggerEnabled(true)
+                                .setServiceName("tigase.im")
+                                .build();
 
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
+                AbstractXMPPConnection connection = new XMPPTCPConnection(connConfig);
+                try {
+                    connection.connect();
+                } catch (SmackException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (XMPPException e) {
+                    e.printStackTrace();
+                }
 
-                        XMPPTCPConnectionConfiguration connConfig =
-                                XMPPTCPConnectionConfiguration.builder()
-                                        .setHost("tigase.im")  // Name of your Host
-                                        .setSecurityMode(ConnectionConfiguration.SecurityMode.ifpossible)
-                                        .setPort(5222)          // Your Port for accepting c2s connection
-                                        .setDebuggerEnabled(true)
-                                        .setServiceName("tigase.im")
-                                        .build();
-
-                        AbstractXMPPConnection connection = new XMPPTCPConnection(connConfig);
-                        try {
-                            connection.connect();
-                        } catch (SmackException e) {
-                            e.printStackTrace();
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        } catch (XMPPException e) {
-                            e.printStackTrace();
-                        }
-
-                        AccountManager accountManager = AccountManager.getInstance(connection);
-                        try {
-                            if(accountManager.supportsAccountCreation()) {
-                                Log.i("@codekul","Server supports registration");
-                                Map<String,String> map = new HashMap<>();
-                                map.put("email","aniruddha.kudalkar@gmail.com");
-                                accountManager.sensitiveOperationOverInsecureConnection(true);
-                                accountManager.createAccount(userName, password,map);
-                            }
-                            else {
-                                Log.i("@codekul","Server does not supports registration");
-                            }
-                        } catch (SmackException.NoResponseException e) {
-                            e.printStackTrace();
-                        } catch (XMPPException.XMPPErrorException e) {
-                            e.printStackTrace();
-                        } catch (SmackException.NotConnectedException e) {
-                            e.printStackTrace();
-                        }
+                AccountManager accountManager = AccountManager.getInstance(connection);
+                try {
+                    if(accountManager.supportsAccountCreation()) {
+                        Log.i("@codekul","Server supports registration");
+                        Map<String,String> map = new HashMap<>();
+                        map.put("email","aniruddha.kudalkar@gmail.com");
+                        accountManager.sensitiveOperationOverInsecureConnection(true);
+                        accountManager.createAccount(userName, password,map);
                     }
-                }).start();
+                    else {
+                        Log.i("@codekul","Server does not supports registration");
+                    }
+                } catch (SmackException.NoResponseException e) {
+                    e.printStackTrace();
+                } catch (XMPPException.XMPPErrorException e) {
+                    e.printStackTrace();
+                } catch (SmackException.NotConnectedException e) {
+                    e.printStackTrace();
+                }
             }
-        });
+        }).start();
     }
 }

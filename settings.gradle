@@ -1,1 +1,1 @@
-include ':app', ':webservices', ':adapterviews', ':locationservices', ':googlemaps', ':pushnotifications', ':activitylifecycle', ':fragments', ':bluetooth'
+include ':app', ':webservices', ':adapterviews', ':locationservices', ':googlemaps', ':pushnotifications', ':activitylifecycle', ':fragments', ':bluetooth', ':handlingruntimechanges', ':configurationchanges', ':configchangesonown', ':sensors', ':wifi', ':camera'

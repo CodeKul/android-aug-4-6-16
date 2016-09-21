@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wifi</string>
+    <string name="btnScan">Scan</string>
+    <string name="btnConnect">Connect</string>
+</resources>
