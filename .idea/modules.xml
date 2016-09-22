@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapterviews/adapterviews.iml" filepath="$PROJECT_DIR$/adapterviews/adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assetsandresources/assetsandresources.iml" filepath="$PROJECT_DIR$/assetsandresources/assetsandresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/bluetooth/bluetooth.iml" filepath="$PROJECT_DIR$/bluetooth/bluetooth.iml" />
       <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
       <module fileurl="file://$PROJECT_DIR$/configchangesonown/configchangesonown.iml" filepath="$PROJECT_DIR$/configchangesonown/configchangesonown.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/googlemaps/googlemaps.iml" filepath="$PROJECT_DIR$/googlemaps/googlemaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" filepath="$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/locationservices/locationservices.iml" filepath="$PROJECT_DIR$/locationservices/locationservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notifications/notifications.iml" filepath="$PROJECT_DIR$/notifications/notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/pushnotifications/pushnotifications.iml" filepath="$PROJECT_DIR$/pushnotifications/pushnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/sensors/sensors.iml" filepath="$PROJECT_DIR$/sensors/sensors.iml" />
       <module fileurl="file://$PROJECT_DIR$/webservices/webservices.iml" filepath="$PROJECT_DIR$/webservices/webservices.iml" />

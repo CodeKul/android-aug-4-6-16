@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssetsAndResources</string>
+
+    <string name="appHeader">My App</string>
+    <string name="btnOkay">Okay</string>
+
+    <integer name="appVersion">1</integer>
+</resources>
