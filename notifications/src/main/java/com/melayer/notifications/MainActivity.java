@@ -64,5 +64,12 @@ public class MainActivity extends AppCompatActivity {
                 manager.notify(NOTIFICATIOIN_SIMPLE, notification);
             }
         });
+
+        findViewById(R.id.btnDialog).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,DialogActivity.class));
+            }
+        });
     }
 }

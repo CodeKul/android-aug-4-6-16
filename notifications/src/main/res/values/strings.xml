@@ -3,4 +3,21 @@
     <string name="btnToast">Toast</string>
     <string name="btnStatusBar">Status Bar</string>
     <string name="btnDialog">Dialog</string>
+    <string name="btnAlert">Alert</string>
+    <string name="btnDatePicker">Date picker</string>
+    <string name="btnTimePicker">Time Picker</string>
+    <string name="btnProgress">Progress</string>
+    <string name="btnCustom">Custom</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alertTitle">Title</string>
+    <string name="alertMessage">Message</string>
+    <string name="alertPositive">Positive</string>
+    <string name="alertNegative">Negative</string>
+    <string name="progressTitle">Title</string>
+    <string name="progressMessage">Message</string>
+    <string name="edtUserName">User Name</string>
+    <string name="edtPassword">Pasword</string>
+    <string name="btnLogin">Login</string>
 </resources>
