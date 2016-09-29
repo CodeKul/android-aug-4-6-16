@@ -10,12 +10,14 @@
       <module fileurl="file://$PROJECT_DIR$/asynctask/asynctask.iml" filepath="$PROJECT_DIR$/asynctask/asynctask.iml" />
       <module fileurl="file://$PROJECT_DIR$/bluetooth/bluetooth.iml" filepath="$PROJECT_DIR$/bluetooth/bluetooth.iml" />
       <module fileurl="file://$PROJECT_DIR$/bouncingball/bouncingball.iml" filepath="$PROJECT_DIR$/bouncingball/bouncingball.iml" />
+      <module fileurl="file://$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" filepath="$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/camera/camera.iml" filepath="$PROJECT_DIR$/camera/camera.iml" />
       <module fileurl="file://$PROJECT_DIR$/configchangesonown/configchangesonown.iml" filepath="$PROJECT_DIR$/configchangesonown/configchangesonown.iml" />
       <module fileurl="file://$PROJECT_DIR$/configurationchanges/configurationchanges.iml" filepath="$PROJECT_DIR$/configurationchanges/configurationchanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemaps/googlemaps.iml" filepath="$PROJECT_DIR$/googlemaps/googlemaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" filepath="$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentfilters/intentfilters.iml" filepath="$PROJECT_DIR$/intentfilters/intentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/locationservices/locationservices.iml" filepath="$PROJECT_DIR$/locationservices/locationservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/notifications/notifications.iml" filepath="$PROJECT_DIR$/notifications/notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/pushnotifications/pushnotifications.iml" filepath="$PROJECT_DIR$/pushnotifications/pushnotifications.iml" />
