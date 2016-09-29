@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
+            <option value="$PROJECT_DIR$/ajitwebdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/assetsandresources" />
             <option value="$PROJECT_DIR$/asynctask" />
@@ -28,6 +29,7 @@
             <option value="$PROJECT_DIR$/notifications" />
             <option value="$PROJECT_DIR$/pushnotifications" />
             <option value="$PROJECT_DIR$/sensors" />
+            <option value="$PROJECT_DIR$/sharedprefs" />
             <option value="$PROJECT_DIR$/webservices" />
             <option value="$PROJECT_DIR$/wifi" />
           </set>
@@ -37,6 +39,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
+            <option value="$PROJECT_DIR$/ajitwebdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/assetsandresources" />
             <option value="$PROJECT_DIR$/asynctask" />
@@ -54,6 +57,7 @@
             <option value="$PROJECT_DIR$/notifications" />
             <option value="$PROJECT_DIR$/pushnotifications" />
             <option value="$PROJECT_DIR$/sensors" />
+            <option value="$PROJECT_DIR$/sharedprefs" />
             <option value="$PROJECT_DIR$/webservices" />
             <option value="$PROJECT_DIR$/wifi" />
           </set>

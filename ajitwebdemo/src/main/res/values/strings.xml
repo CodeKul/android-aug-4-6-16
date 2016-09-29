@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AjitWebDemo</string>
+    <string name="btnGet">Get\'</string>
+    <string name="btnPost">Post</string>
+</resources>
