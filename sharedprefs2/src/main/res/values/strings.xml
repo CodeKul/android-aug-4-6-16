@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SharedPrefs</string>
+    <string name="btnSave">Save</string>
+</resources>
