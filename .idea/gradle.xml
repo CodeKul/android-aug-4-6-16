@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlserver" />
             <option value="$PROJECT_DIR$/ajitwebdemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/assetsandresources" />
