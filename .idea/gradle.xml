@@ -30,6 +30,7 @@
             <option value="$PROJECT_DIR$/googlemaps" />
             <option value="$PROJECT_DIR$/handlingruntimechanges" />
             <option value="$PROJECT_DIR$/intentfilters" />
+            <option value="$PROJECT_DIR$/jsonparsing" />
             <option value="$PROJECT_DIR$/locationservices" />
             <option value="$PROJECT_DIR$/myinternalstorage" />
             <option value="$PROJECT_DIR$/newsqlite" />
@@ -41,6 +42,7 @@
             <option value="$PROJECT_DIR$/sharedprefs" />
             <option value="$PROJECT_DIR$/sharedprefs2" />
             <option value="$PROJECT_DIR$/webservices" />
+            <option value="$PROJECT_DIR$/webservices2" />
             <option value="$PROJECT_DIR$/wifi" />
           </set>
         </option>

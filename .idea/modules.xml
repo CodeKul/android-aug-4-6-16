@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/googlemaps/googlemaps.iml" filepath="$PROJECT_DIR$/googlemaps/googlemaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" filepath="$PROJECT_DIR$/handlingruntimechanges/handlingruntimechanges.iml" />
       <module fileurl="file://$PROJECT_DIR$/intentfilters/intentfilters.iml" filepath="$PROJECT_DIR$/intentfilters/intentfilters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
       <module fileurl="file://$PROJECT_DIR$/locationservices/locationservices.iml" filepath="$PROJECT_DIR$/locationservices/locationservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/myinternalstorage/myinternalstorage.iml" filepath="$PROJECT_DIR$/myinternalstorage/myinternalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/newsqlite/newsqlite.iml" filepath="$PROJECT_DIR$/newsqlite/newsqlite.iml" />
@@ -35,6 +36,7 @@
       <module fileurl="file://$PROJECT_DIR$/sharedprefs/sharedprefs.iml" filepath="$PROJECT_DIR$/sharedprefs/sharedprefs.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharedprefs2/sharedprefs2.iml" filepath="$PROJECT_DIR$/sharedprefs2/sharedprefs2.iml" />
       <module fileurl="file://$PROJECT_DIR$/webservices/webservices.iml" filepath="$PROJECT_DIR$/webservices/webservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webservices2/webservices2.iml" filepath="$PROJECT_DIR$/webservices2/webservices2.iml" />
       <module fileurl="file://$PROJECT_DIR$/wifi/wifi.iml" filepath="$PROJECT_DIR$/wifi/wifi.iml" />
     </modules>
   </component>

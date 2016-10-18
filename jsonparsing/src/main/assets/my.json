@@ -1,0 +1,9 @@
+{
+  "name" : "Android",
+  "cities" : ["Pune","Mumbai","Delhi"],
+  "age" : 27,
+  "isIndian" : true,
+  "obj" : {
+    "inner" : 15
+  }
+}
