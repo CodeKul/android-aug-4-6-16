@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/adapterviews" />
             <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlcoomman" />
             <option value="$PROJECT_DIR$/aidlserver" />
             <option value="$PROJECT_DIR$/ajitwebdemo" />
             <option value="$PROJECT_DIR$/app" />
@@ -37,6 +38,9 @@
             <option value="$PROJECT_DIR$/newsqlite" />
             <option value="$PROJECT_DIR$/notifications" />
             <option value="$PROJECT_DIR$/ormdemo" />
+            <option value="$PROJECT_DIR$/otheraidlclient" />
+            <option value="$PROJECT_DIR$/otheraidlserver" />
+            <option value="$PROJECT_DIR$/otherservices" />
             <option value="$PROJECT_DIR$/pushnotifications" />
             <option value="$PROJECT_DIR$/sensors" />
             <option value="$PROJECT_DIR$/services" />

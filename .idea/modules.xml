@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" filepath="$PROJECT_DIR$/activitylifecycle/activitylifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapterviews/adapterviews.iml" filepath="$PROJECT_DIR$/adapterviews/adapterviews.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlclient/aidlclient.iml" filepath="$PROJECT_DIR$/aidlclient/aidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aidlcoomman/aidlcoomman.iml" filepath="$PROJECT_DIR$/aidlcoomman/aidlcoomman.iml" />
       <module fileurl="file://$PROJECT_DIR$/aidlserver/aidlserver.iml" filepath="$PROJECT_DIR$/aidlserver/aidlserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/ajitwebdemo/ajitwebdemo.iml" filepath="$PROJECT_DIR$/ajitwebdemo/ajitwebdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
@@ -31,6 +32,9 @@
       <module fileurl="file://$PROJECT_DIR$/newsqlite/newsqlite.iml" filepath="$PROJECT_DIR$/newsqlite/newsqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/notifications/notifications.iml" filepath="$PROJECT_DIR$/notifications/notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/ormdemo/ormdemo.iml" filepath="$PROJECT_DIR$/ormdemo/ormdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otheraidlclient/otheraidlclient.iml" filepath="$PROJECT_DIR$/otheraidlclient/otheraidlclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otheraidlserver/otheraidlserver.iml" filepath="$PROJECT_DIR$/otheraidlserver/otheraidlserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/otherservices/otherservices.iml" filepath="$PROJECT_DIR$/otherservices/otherservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/pushnotifications/pushnotifications.iml" filepath="$PROJECT_DIR$/pushnotifications/pushnotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/sensors/sensors.iml" filepath="$PROJECT_DIR$/sensors/sensors.iml" />
       <module fileurl="file://$PROJECT_DIR$/services/services.iml" filepath="$PROJECT_DIR$/services/services.iml" />

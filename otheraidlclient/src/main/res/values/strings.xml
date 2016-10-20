@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OtherAIDLClient</string>
+    <string name="btnBind">Bind</string>
+    <string name="btnValidate">Validate</string>
+</resources>
