@@ -34,7 +34,9 @@
             <option value="$PROJECT_DIR$/intentfilters" />
             <option value="$PROJECT_DIR$/jsonparsing" />
             <option value="$PROJECT_DIR$/locationservices" />
+            <option value="$PROJECT_DIR$/mygooglemmaps" />
             <option value="$PROJECT_DIR$/myinternalstorage" />
+            <option value="$PROJECT_DIR$/mylocationservices" />
             <option value="$PROJECT_DIR$/newsqlite" />
             <option value="$PROJECT_DIR$/notifications" />
             <option value="$PROJECT_DIR$/ormdemo" />
