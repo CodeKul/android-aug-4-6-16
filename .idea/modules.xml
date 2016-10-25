@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/intentfilters/intentfilters.iml" filepath="$PROJECT_DIR$/intentfilters/intentfilters.iml" />
       <module fileurl="file://$PROJECT_DIR$/jsonparsing/jsonparsing.iml" filepath="$PROJECT_DIR$/jsonparsing/jsonparsing.iml" />
       <module fileurl="file://$PROJECT_DIR$/locationservices/locationservices.iml" filepath="$PROJECT_DIR$/locationservices/locationservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybluetoth/mybluetoth.iml" filepath="$PROJECT_DIR$/mybluetoth/mybluetoth.iml" />
       <module fileurl="file://$PROJECT_DIR$/mygooglemmaps/mygooglemmaps.iml" filepath="$PROJECT_DIR$/mygooglemmaps/mygooglemmaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/myinternalstorage/myinternalstorage.iml" filepath="$PROJECT_DIR$/myinternalstorage/myinternalstorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/mylocationservices/mylocationservices.iml" filepath="$PROJECT_DIR$/mylocationservices/mylocationservices.iml" />
